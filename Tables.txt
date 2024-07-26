@@ -1,3 +1,12 @@
 1. User
 2. Activity Master.
 3. Activity Detail.
+
+4. Maintenance Schedule
+
+
+Users - Id,MobileNumber,Email,Password,IsActive,IsDeleted,CreatedBy,CreatedAt,ModifiedBy,ModifiedAt
+UserDetail - Id,UserId,FirstName,MiddleName,LastName,IsActive,IsDeleted,CreatedBy,CreatedAt,ModifiedBy,ModifiedAt
+Roles - Id,RoleName,RoleDescription,IsActive,IsDeleted,CreatedBy,CreatedAt,ModifiedBy,ModifiedAt
+UserRole - Id,UserId,RoleId,IsActive,IsDeleted,CreatedBy,CreatedAt,ModifiedBy,ModifiedAt
+UserAddress - Id,UserId,AddressLine1,AddressLine2,Landmark,Pincode,District,State,Country,IsPrimary,IsActive,IsDeleted,CreatedBy,CreatedAt,ModifiedBy,ModifiedAt
